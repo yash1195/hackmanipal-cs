@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	background-color: #231F20;
+	/*background-color: #000;*/
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+}
+.container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.7;
+	background-color: #231F20;
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+	overflow: hidden;
+}
+.hack-text{
+	position: absolute;
+	top: 70vh;
+	width: 100%;
+	font-size: 32px;
+	color: #fff;
+	font-weight: 300;
+	z-index: 1;
+}
+#cursor {
+	
+}
+.hack-bg{
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	width: 100vw;
+	color: #bdc3c7;
+	text-align: left;
+	overflow: scroll;
+}
+#logo{
+	z-index: 10;
+}
+.fade-first {
+	opacity: 0;
+}
+.fade-second {
+	opacity: 0;
+}
+.hack-shadow {
+	z-index: 2;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	width: 100vw;
+	opacity: 1;
+}
